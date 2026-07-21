@@ -1,0 +1,9 @@
+{
+    "model": "BiLSTM + Character CNN + GloVe",
+    "best_validation_f1": 0.8976881042454813,
+    "test_loss": 0.10642985340889334,
+    "test_precision": 0.828397212543554,
+    "test_recall": 0.8418909348441926,
+    "test_f1": 0.8350895679662803,
+    "glove_coverage": 88.93451297464335
+}

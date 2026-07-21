@@ -1,0 +1,74 @@
+[
+    {
+        "epoch": 1,
+        "train_loss": 4.9921836035262315,
+        "validation_loss": 1.885351602260883,
+        "validation_precision": 0.803758523199734,
+        "validation_recall": 0.8133625042073376,
+        "validation_f1": 0.8085319949811794
+    },
+    {
+        "epoch": 2,
+        "train_loss": 1.420100874752581,
+        "validation_loss": 1.2755327620873085,
+        "validation_precision": 0.8720515866282029,
+        "validation_recall": 0.8648603163917873,
+        "validation_f1": 0.8684410646387832
+    },
+    {
+        "epoch": 3,
+        "train_loss": 0.9480097062159328,
+        "validation_loss": 1.0732632182194637,
+        "validation_precision": 0.8852736824267073,
+        "validation_recall": 0.8791652642208011,
+        "validation_f1": 0.8822088997720172
+    },
+    {
+        "epoch": 4,
+        "train_loss": 0.6964484333278838,
+        "validation_loss": 0.9513274776752179,
+        "validation_precision": 0.8949396782841823,
+        "validation_recall": 0.8988556041736789,
+        "validation_f1": 0.8968933669185558
+    },
+    {
+        "epoch": 5,
+        "train_loss": 0.5454077981362001,
+        "validation_loss": 0.9047889394026536,
+        "validation_precision": 0.9000336021505376,
+        "validation_recall": 0.9015483002356109,
+        "validation_f1": 0.9007903144442576
+    },
+    {
+        "epoch": 6,
+        "train_loss": 0.41386986305087764,
+        "validation_loss": 0.9005163850050706,
+        "validation_precision": 0.9014985687826234,
+        "validation_recall": 0.9010434197239987,
+        "validation_f1": 0.9012709367898326
+    },
+    {
+        "epoch": 7,
+        "train_loss": 0.335429670695489,
+        "validation_loss": 0.9181314283517691,
+        "validation_precision": 0.9039757412398922,
+        "validation_recall": 0.9030629417704477,
+        "validation_f1": 0.9035191109614414
+    },
+    {
+        "epoch": 8,
+        "train_loss": 0.2789609609573037,
+        "validation_loss": 0.9084697820223295,
+        "validation_precision": 0.9127666896077082,
+        "validation_recall": 0.8927970380343319,
+        "validation_f1": 0.902671431002212
+    },
+    {
+        "epoch": 9,
+        "train_loss": 0.22930388328184914,
+        "validation_loss": 0.9423597080524151,
+        "validation_precision": 0.9028746385439701,
+        "validation_recall": 0.8933019185459441,
+        "validation_f1": 0.898062769647238
+    }
+]

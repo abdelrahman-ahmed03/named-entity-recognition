@@ -1,0 +1,9 @@
+{
+    "model": "DistilBERT Token Classification",
+    "pretrained_model": "distilbert-base-cased",
+    "best_validation_f1": 0.9307595467897609,
+    "test_loss": 0.10921455906745273,
+    "test_precision": 0.8820126227208976,
+    "test_recall": 0.8913890857547838,
+    "test_f1": 0.8866760662671836
+}

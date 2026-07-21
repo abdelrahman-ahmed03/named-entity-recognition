@@ -1,0 +1,13 @@
+split,entity_type,count,percentage
+train,PER,6600,28.09
+train,ORG,6321,26.9
+train,LOC,7140,30.38
+train,MISC,3438,14.63
+validation,PER,1842,31.0
+validation,ORG,1341,22.57
+validation,LOC,1837,30.92
+validation,MISC,922,15.52
+test,PER,1617,28.63
+test,ORG,1661,29.41
+test,LOC,1668,29.53
+test,MISC,702,12.43

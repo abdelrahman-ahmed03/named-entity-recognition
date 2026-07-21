@@ -1,0 +1,219 @@
+{
+    "dataset_name": "CoNLL-2003",
+    "task": "Named Entity Recognition",
+    "tagging_scheme": "IOB2",
+    "splits": [
+        {
+            "split": "train",
+            "sentences": 14041,
+            "total_tokens": 203621,
+            "average_length": 14.5,
+            "median_length": 10.0,
+            "minimum_length": 1,
+            "maximum_length": 113
+        },
+        {
+            "split": "validation",
+            "sentences": 3250,
+            "total_tokens": 51362,
+            "average_length": 15.8,
+            "median_length": 11.0,
+            "minimum_length": 1,
+            "maximum_length": 109
+        },
+        {
+            "split": "test",
+            "sentences": 3453,
+            "total_tokens": 46435,
+            "average_length": 13.45,
+            "median_length": 9.0,
+            "minimum_length": 1,
+            "maximum_length": 124
+        }
+    ],
+    "labels": {
+        "0": "O",
+        "1": "B-PER",
+        "2": "I-PER",
+        "3": "B-ORG",
+        "4": "I-ORG",
+        "5": "B-LOC",
+        "6": "I-LOC",
+        "7": "B-MISC",
+        "8": "I-MISC"
+    },
+    "training_vocabulary": {
+        "vocabulary_size": 23623,
+        "words_appearing_once": 11641,
+        "words_appearing_twice_or_less": 15497
+    },
+    "oov_statistics": [
+        {
+            "split": "validation",
+            "total_tokens": 51362,
+            "oov_tokens": 4293,
+            "unique_oov_words": 3260,
+            "oov_percentage": 8.36
+        },
+        {
+            "split": "test",
+            "total_tokens": 46435,
+            "oov_tokens": 5656,
+            "unique_oov_words": 3693,
+            "oov_percentage": 12.18
+        }
+    ],
+    "sentence_length_percentiles": [
+        {
+            "percentile": 50,
+            "sentence_length": 10
+        },
+        {
+            "percentile": 75,
+            "sentence_length": 22
+        },
+        {
+            "percentile": 90,
+            "sentence_length": 33
+        },
+        {
+            "percentile": 95,
+            "sentence_length": 38
+        },
+        {
+            "percentile": 99,
+            "sentence_length": 46
+        },
+        {
+            "percentile": 100,
+            "sentence_length": 124
+        }
+    ],
+    "train_tag_distribution": [
+        {
+            "label": "O",
+            "count": 169578,
+            "percentage": 83.28
+        },
+        {
+            "label": "B-PER",
+            "count": 6600,
+            "percentage": 3.24
+        },
+        {
+            "label": "I-PER",
+            "count": 4528,
+            "percentage": 2.22
+        },
+        {
+            "label": "B-ORG",
+            "count": 6321,
+            "percentage": 3.1
+        },
+        {
+            "label": "I-ORG",
+            "count": 3704,
+            "percentage": 1.82
+        },
+        {
+            "label": "B-LOC",
+            "count": 7140,
+            "percentage": 3.51
+        },
+        {
+            "label": "I-LOC",
+            "count": 1157,
+            "percentage": 0.57
+        },
+        {
+            "label": "B-MISC",
+            "count": 3438,
+            "percentage": 1.69
+        },
+        {
+            "label": "I-MISC",
+            "count": 1155,
+            "percentage": 0.57
+        }
+    ],
+    "entity_distribution": [
+        {
+            "split": "train",
+            "entity_type": "PER",
+            "count": 6600,
+            "percentage": 28.09
+        },
+        {
+            "split": "train",
+            "entity_type": "ORG",
+            "count": 6321,
+            "percentage": 26.9
+        },
+        {
+            "split": "train",
+            "entity_type": "LOC",
+            "count": 7140,
+            "percentage": 30.38
+        },
+        {
+            "split": "train",
+            "entity_type": "MISC",
+            "count": 3438,
+            "percentage": 14.63
+        },
+        {
+            "split": "validation",
+            "entity_type": "PER",
+            "count": 1842,
+            "percentage": 31.0
+        },
+        {
+            "split": "validation",
+            "entity_type": "ORG",
+            "count": 1341,
+            "percentage": 22.57
+        },
+        {
+            "split": "validation",
+            "entity_type": "LOC",
+            "count": 1837,
+            "percentage": 30.92
+        },
+        {
+            "split": "validation",
+            "entity_type": "MISC",
+            "count": 922,
+            "percentage": 15.52
+        },
+        {
+            "split": "test",
+            "entity_type": "PER",
+            "count": 1617,
+            "percentage": 28.63
+        },
+        {
+            "split": "test",
+            "entity_type": "ORG",
+            "count": 1661,
+            "percentage": 29.41
+        },
+        {
+            "split": "test",
+            "entity_type": "LOC",
+            "count": 1668,
+            "percentage": 29.53
+        },
+        {
+            "split": "test",
+            "entity_type": "MISC",
+            "count": 702,
+            "percentage": 12.43
+        }
+    ],
+    "invalid_iob_transitions": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+    },
+    "recommended_max_sequence_length": 128
+}

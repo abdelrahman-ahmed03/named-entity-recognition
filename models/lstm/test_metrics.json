@@ -1,0 +1,10 @@
+{
+    "model": "LSTM + Character CNN + GloVe",
+    "best_epoch": 6,
+    "best_validation_f1": 0.8168272001317197,
+    "test_loss": 0.1252365266918475,
+    "test_precision": 0.7406914893617021,
+    "test_recall": 0.7889518413597734,
+    "test_f1": 0.7640603566529492,
+    "glove_coverage": 88.93451297464335
+}

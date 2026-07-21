@@ -1,0 +1,4 @@
+split,sentences,total_tokens,average_length,median_length,minimum_length,maximum_length
+train,14041,203621,14.5,10.0,1,113
+validation,3250,51362,15.8,11.0,1,109
+test,3453,46435,13.45,9.0,1,124

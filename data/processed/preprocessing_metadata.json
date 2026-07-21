@@ -1,0 +1,42 @@
+{
+    "dataset_name": "CoNLL-2003",
+    "dataset_source": "tomaarsen/conll2003",
+    "max_sequence_length": 128,
+    "max_word_length": 16,
+    "batch_size": 32,
+    "word_vocabulary_size": 23625,
+    "character_vocabulary_size": 86,
+    "number_of_labels": 9,
+    "special_tokens": {
+        "pad_token": "<PAD>",
+        "unk_token": "<UNK>",
+        "pad_word_id": 0,
+        "unk_word_id": 1,
+        "pad_character": "<PAD>",
+        "unk_character": "<UNK>",
+        "pad_character_id": 0,
+        "unk_character_id": 1,
+        "label_pad_id": -100
+    },
+    "label_names": [
+        "O",
+        "B-PER",
+        "I-PER",
+        "B-ORG",
+        "I-ORG",
+        "B-LOC",
+        "I-LOC",
+        "B-MISC",
+        "I-MISC"
+    ],
+    "dataset_sizes": {
+        "train": 14041,
+        "validation": 3250,
+        "test": 3453
+    },
+    "batch_counts": {
+        "train": 439,
+        "validation": 102,
+        "test": 108
+    }
+}

@@ -1,0 +1,57 @@
+﻿# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Raw and generated datasets
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.arrow
+
+# Model weights
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+models/**/*.safetensors
+
+# Training outputs
+runs/
+checkpoints/
+logs/
+
+# Temporary files
+archive/
+*.zip
+project_tree.txt
+model_files.txt
+app_working_backup.py
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
